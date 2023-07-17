@@ -1,1 +1,1 @@
-# cat-chat
+# CatChat - AI chat on your terminal
