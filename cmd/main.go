@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/imkcat/catchat/internal/modules/app"
+	"github.com/imkcat/catchat/internal/app"
 )
 
 func main() {
