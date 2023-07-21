@@ -4,8 +4,8 @@
 name: Build
 
 on:
-  pull_request:
-    branches: [ "main" ]
+  release:
+    types: [prereleased, released]
 
 jobs:
 
