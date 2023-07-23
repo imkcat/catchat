@@ -5,10 +5,10 @@ name: Build & Release
 
 on:
   release:
-    types: [prereleased, released]
+    types: [released]
 
 jobs:
-  build:
+  build_release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
