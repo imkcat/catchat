@@ -48,9 +48,6 @@ jobs:
       - name: Build Windows ARM64
         run: GOOS=windows GOARCH=arm64 go build -o ./dist/catchat_windows_arm64.exe ./cmd/main.go
 
-      - name: Build Windows AMD64
-        run: GOOS=windows GOARCH=amd64 go build -o ./dist/catchat_windows_amd64.exe ./cmd/main.go
-
       - name: Upload Build Artifacts to Release
         uses: softprops/action-gh-release@v1
         with:
