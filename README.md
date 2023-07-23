@@ -10,9 +10,17 @@ Currently, catchat supports [OpenAI](https://openai.com/) and [Azure OpenAI](htt
 
 ## Features
 
-- Stream Chatting
-- Markdown Rendering
-- Profile Management (Create, Delete, List)
+### Stream Message
+
+![](assets/stream-message.gif)
+
+### Markdown Rendering
+
+![](assets/markdown-rendering.gif)
+
+### Profile Lazy Management (Create, Delete, List)
+
+![](assets/profile-lazy-management.gif)
 
 ## Installation
 
@@ -20,12 +28,18 @@ You can download the latest version manually from [latest release](https://githu
 
 ## Usage
 
-TODO
+1. Run `catchat` on you terminal
+2. Choose profile (program will ask you to create a new profile if there is no profile yet)
+3. That's it!
 
-## Examples
 
-TODO
+## FAQ
 
+1. “catchat” can’t be opened because Apple cannot check it for malicious software.
+   
+   Go to `System Settings` -> `Privacy & Security` -> `Security`, click `Allow Anyway` button
+
+   ![](assets/macos-execute-allow.png)
 
 ## Contributing
 

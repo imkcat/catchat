@@ -135,6 +135,6 @@ func (config *Config) DeleteProfile(names []string) error {
 	if err != nil {
 		return err
 	}
-	fmt.Printf("%d profiles deleted", len(names))
+	fmt.Printf("%d profiles deleted\n", len(names))
 	return nil
 }
