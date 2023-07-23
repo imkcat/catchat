@@ -62,4 +62,3 @@ jobs:
             ./dist/catchat_windows_amd64.exe
             ./dist/catchat_windows_arm32.exe
             ./dist/catchat_windows_arm64.exe
-            ./dist/catchat_windows_amd64.exe
